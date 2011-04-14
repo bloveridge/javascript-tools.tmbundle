@@ -65,6 +65,10 @@ Licenses
 * **[YUI! Compressor][yuic]** [BSD License][ybsd]
 * **[JSMin][jsmin]** Copyright 2001 Douglas Crockford
 
+Special Thanks
+---
+* **[Andre Arko][arko]** for his simple and elegant whitespace removal macro, which is included here
+
 [rhino]:  http://developer.mozilla.org/en/docs/Rhino_documentation
 [rmpl]:   http://www.mozilla.org/MPL/
 [radd]:   http://developer.mozilla.org/en/docs/Rhino_License
@@ -84,3 +88,4 @@ Licenses
 [gpl]:    http://www.gnu.org/copyleft/gpl.html
 [lgpl]:   http://www.gnu.org/licenses/lgpl.html
 [smonk]:  http://www.mozilla.org/js/spidermonkey/
+[arko]:   http://andre.arko.net/2009/12/27/textmate-strip-whitespace-and-preserve-cursor-position/
