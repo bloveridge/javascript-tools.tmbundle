@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>commands</key>
+    <array>
+        <dict>
+            <key>argument</key>
+            <dict>
+                <key>beforeRunningCommand</key>
+                <string>nop</string>
+                <key>command</key>
+                <string>perl -pe 's/[\t ]+$//g'</string>
+                <key>fallbackInput</key>
+                <string>document</string>
+                <key>input</key>
+                <string>selection</string>
+                <key>name</key>
+                <string>Remove Trailing Spaces in Document / Selection</string>
+                <key>output</key>
+                <string>replaceSelectedText</string>
+                <key>uuid</key>
+                <string>0F8C1F78-6E4C-11D9-91AF-000D93589AF6</string>
+            </dict>
+            <key>command</key>
+            <string>executeCommandWithOptions:</string>
+        </dict>
+        <dict>
+            <key>argument</key>
+            <dict>
+                <key>beforeRunningCommand</key>
+                <string>saveActiveFile</string>
+                <key>input</key>
+                <string>document</string>
+                <key>name</key>
+                <string>save</string>
+                <key>output</key>
+                <string>discard</string>
+                <key>uuid</key>
+                <string>74B7A581-491A-4854-899C-8C27FCA885ED</string>
+            </dict>
+            <key>command</key>
+            <string>executeCommandWithOptions:</string>
+        </dict>
+        <dict>
+            <key>argument</key>
+            <dict>
+                <key>beforeRunningCommand</key>
+                <string>nop</string>
+                <key>command</key>
+                <string>ruby "$TM_BUNDLE_SUPPORT/bin/quick_lint.rb"</string>
+                <key>input</key>
+                <string>none</string>
+                <key>output</key>
+                <string>showAsTooltip</string>
+                <key>uuid</key>
+                <string>F2A344A2-8546-41E8-BC60-EA331D4EF7B8</string>
+            </dict>
+            <key>command</key>
+            <string>executeCommandWithOptions:</string>
+        </dict>
+    </array>
+    <key>keyEquivalent</key>
+    <string>@s</string>
+    <key>name</key>
+    <string>Validate Syntax Quick (and strip whitespace)</string>
+    <key>scope</key>
+    <string>source.js</string>
+    <key>uuid</key>
+    <string>2F3DB2EF-6B9E-4E5F-87A8-3675680E5C0D</string>
+</dict>
+</plist>

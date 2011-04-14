@@ -9,8 +9,6 @@
 "${TM_RUBY:-ruby}" "$TM_BUNDLE_SUPPORT/bin/quick_lint.rb"</string>
 	<key>input</key>
 	<string>none</string>
-	<key>keyEquivalent</key>
-	<string>@s</string>
 	<key>name</key>
 	<string>Validate Quick with JSLint</string>
 	<key>output</key>
